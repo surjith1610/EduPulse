@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# EduPulse  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Tech Stack: HTML, CSS, React.js, JavaScript, Firebase  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Overview  
+EduPulse is a web application designed to efficiently manage and organize student data and their academic records. It simplifies the administration process and provides role-based access control, ensuring secure and personalized access for different user roles, such as students, teachers, and administrators.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features  
+### **Role-Based Access Control**  
+- Secure sign-in and user authentication with Firebase Authentication.  
+- Permissions tailored for different roles:
+  - **Students**: View personal academic records.  
+  - **Teachers**: Update grades and track student performance.  
+  - **Administrators**: Manage student records and user roles.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **Efficient Student Data Management**  
+- Centralized platform to store and retrieve academic records.  
+- Real-time synchronization powered by Firebase Realtime Database, ensuring up-to-date information.  
 
-### `npm test`
+### **Intuitive UI**  
+- Responsive design for using on both desktop and mobile devices.  
+- Built with React.js, utlizing reusable components and rendering.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Tech Stack  
+1. **Frontend:** HTML, CSS, React.js, JavaScript  
+2. **Backend:** Firebase Realtime Database  
+3. **Authentication:** Firebase Authentication  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to Run Locally  
+### Prerequisites:  
+- **Node.js** installed  
+- **Firebase CLI** installed and configured  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Steps:  
+1. **Clone the Repository**  
+   ```bash
+   git clone <repository-link>
+   cd edupulse
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   npm install
+   firebase init
+   npm start
